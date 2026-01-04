@@ -4,7 +4,7 @@ Official Claude Code plugin marketplace for [OpenAlgo](https://openalgo.in) - th
 
 ## About OpenAlgo
 
-OpenAlgo provides a single API to connect with 25+ Indian brokers including Zerodha, Angel One, Upstox, Fyers, Dhan, and many more. Write your trading strategy once, deploy it with any broker.
+OpenAlgo provides a single API to connect with [25+ Indian brokers](https://docs.openalgo.in/connect-brokers/brokers). Write your trading strategy once, deploy it with any broker.
 
 ## Available Plugins
 
@@ -62,8 +62,10 @@ claude "buy 1 share of RELIANCE at market price"
 ### Create Options Strategy
 
 ```
-claude "create an iron condor on NIFTY expiring 30JAN25 with 75 quantity"
+claude "create an iron condor on NIFTY expiring 07JAN25 with 65 quantity"
 ```
+
+> Note: NIFTY weekly options expire on Tuesday. Lot size is 65.
 
 ### Get Market Data
 
@@ -139,19 +141,9 @@ client.subscribe_ltp([
 
 ## Supported Brokers
 
-OpenAlgo supports 25+ Indian brokers including:
+OpenAlgo supports 25+ Indian brokers. See the complete list at:
 
-- Zerodha (Kite)
-- Angel One
-- Upstox
-- Fyers
-- Dhan
-- 5Paisa
-- ICICI Direct
-- Kotak Securities
-- IIFL Securities
-- Motilal Oswal
-- And many more...
+**[https://docs.openalgo.in/connect-brokers/brokers](https://docs.openalgo.in/connect-brokers/brokers)**
 
 ## Contributing
 
