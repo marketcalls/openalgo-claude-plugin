@@ -10,7 +10,7 @@ OpenAlgo provides a single API to connect with 25+ Indian brokers including Zero
 
 ### openalgo-python
 
-Complete OpenAlgo Python SDK integration for algorithmic trading. Includes 5 skills:
+Complete OpenAlgo Python SDK integration for algorithmic trading. Includes 6 skills:
 
 | Skill | Description |
 |-------|-------------|
@@ -19,22 +19,27 @@ Complete OpenAlgo Python SDK integration for algorithmic trading. Includes 5 ski
 | **market-data** | Real-time quotes, historical data, WebSocket streaming, option chains |
 | **visualization** | Candlestick charts, payoff diagrams, Streamlit dashboards |
 | **portfolio** | Funds, positions, holdings, margin calculator |
+| **technical-indicators** | TA-Lib indicators (RSI, MACD, Bollinger), signals, pattern scanner |
 
 ## Installation
 
 ### 1. Add the Marketplace
 
-```bash
-claude /plugin marketplace add https://github.com/marketcalls/openalgo_marketplace
+```
+/plugin marketplace add https://github.com/marketcalls/openalgo-claude-plugin
 ```
 
 ### 2. Install the Plugin
 
-```bash
-claude /plugin install openalgo-python
+```
+/plugin install openalgo-python@openalgo-marketplace
 ```
 
-### 3. Set Environment Variables
+### 3. Restart Claude Code
+
+After installation, restart Claude Code to load the new plugins.
+
+### 4. Set Environment Variables
 
 ```bash
 # Linux/macOS
