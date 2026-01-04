@@ -1,0 +1,5 @@
+openalgo>=1.0.45
+httpx
+pandas
+numpy
+TA-Lib

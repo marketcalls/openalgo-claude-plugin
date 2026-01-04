@@ -1,0 +1,7 @@
+openalgo>=1.0.45
+httpx
+pandas
+numpy
+plotly
+streamlit
+scipy

@@ -1,0 +1,29 @@
+{
+  "name": "openalgo-python",
+  "version": "1.0.0",
+  "description": "Complete OpenAlgo Python SDK integration for algorithmic trading. Build trading strategies, options strategies, real-time dashboards, and full-stack trading applications. Supports 25+ Indian brokers with unified API. Includes 6 skills.",
+  "author": {
+    "name": "OpenAlgo",
+    "url": "https://github.com/marketcalls/openalgo"
+  },
+  "homepage": "https://openalgo.in",
+  "repository": "https://github.com/marketcalls/openalgo",
+  "license": "MIT",
+  "keywords": [
+    "trading",
+    "algorithmic-trading",
+    "options-trading",
+    "nse",
+    "bse",
+    "nfo",
+    "mcx",
+    "python-sdk",
+    "real-time-data",
+    "websocket",
+    "indian-markets",
+    "broker-api",
+    "trading-bot",
+    "backtesting",
+    "portfolio-management"
+  ]
+}

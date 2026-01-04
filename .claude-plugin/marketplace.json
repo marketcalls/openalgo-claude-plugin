@@ -1,0 +1,36 @@
+{
+  "name": "openalgo-marketplace",
+  "owner": {
+    "name": "OpenAlgo",
+    "url": "https://github.com/marketcalls/openalgo"
+  },
+  "metadata": {
+    "description": "Official OpenAlgo marketplace for Claude Code trading and algorithmic trading extensions. Build trading strategies, real-time dashboards, and full-stack trading applications.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "openalgo-python",
+      "description": "Complete OpenAlgo Python SDK integration for algorithmic trading. Build trading strategies, options strategies, real-time dashboards, and full-stack trading applications. Supports 25+ Indian brokers with unified API. Includes 6 skills.",
+      "version": "1.0.0",
+      "author": {
+        "name": "OpenAlgo",
+        "url": "https://github.com/marketcalls/openalgo"
+      },
+      "homepage": "https://openalgo.in",
+      "tags": [
+        "trading",
+        "algorithmic-trading",
+        "options",
+        "nse",
+        "bse",
+        "mcx",
+        "python-sdk",
+        "real-time",
+        "websocket",
+        "indian-markets"
+      ],
+      "source": "./plugins/openalgo-python"
+    }
+  ]
+}
